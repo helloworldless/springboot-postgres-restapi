@@ -8,4 +8,8 @@ import java.util.List;
 @Component
 public interface ProductsDao {
     List<Product> getProducts();
+
+    void populateProducts();
+
+    void addProduct(Product product);
 }
